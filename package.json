@@ -1,0 +1,32 @@
+{
+  "name": "sfcc-reviews-cartridge",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "SFRA product ratings and reviews with authenticated submissions, Business Manager moderation, and site-scoped storage.",
+  "author": "Vedesh Reddy",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vedesh-reddy/sfcc-reviews-cartridge.git"
+  },
+  "devDependencies": {
+    "webpack": "5.106.2",
+    "sass": "1.99.0",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.1.2",
+    "eslint-plugin-import": "2.32.0",
+    "mocha": "10.8.2",
+    "chai": "3.5.0",
+    "sinon": "17.0.1",
+    "proxyquire": "1.7.4",
+    "isml-linter": "5.43.14",
+    "stylelint": "15.11.0",
+    "stylelint-config-standard-scss": "11.1.0",
+    "postcss-scss": "4.0.9",
+    "archiver": "7.0.1"
+  }
+}
