@@ -12,6 +12,18 @@
     "type": "git",
     "url": "https://github.com/Vedesh-reddy/sfcc-reviews-cartridge.git"
   },
+  "scripts": {
+    "test": "mocha 'test/unit/plugin_productreviews/**/*.js'",
+    "test:reviews": "npm test",
+    "build": "node scripts/build.js",
+    "lint:js": "eslint cartridges test scripts --ext .js",
+    "lint:css": "stylelint 'cartridges/plugin_productreviews/cartridge/client/default/scss/**/*.scss' --custom-syntax postcss-scss",
+    "lint:isml": "node scripts/check-templates.js",
+    "lint:docs": "node scripts/check-docs.js",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:isml && npm run lint:docs",
+    "validate": "npm run lint && npm test && npm run build",
+    "package:metadata": "node scripts/package-metadata.js"
+  },
   "devDependencies": {
     "webpack": "5.106.2",
     "sass": "1.99.0",
@@ -28,9 +40,5 @@
     "stylelint-config-standard-scss": "11.1.0",
     "postcss-scss": "4.0.9",
     "archiver": "7.0.1"
-  },
-  "scripts": {
-    "test": "mocha 'test/unit/plugin_productreviews/**/*.js'",
-    "test:reviews": "npm test"
   }
 }
