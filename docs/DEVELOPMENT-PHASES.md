@@ -8,11 +8,11 @@ Each phase has a dedicated feature branch and PR targeting `main`. Phases are me
 
 | Phase | Feature branch | Scope | Pull request |
 | --- | --- | --- | --- |
-| 01 · Foundation | `feature/phase-01-foundation` | Cartridge identity, metadata definitions, placeholder deployment config | To be linked after creation |
-| 02 · Review storage | `feature/phase-02-review-storage` | Canonical products, validation, keys, transactional persistence, approved aggregates, storage tests | To be linked after creation |
-| 03 · Storefront | `feature/phase-03-storefront` | HTTPS routes, login return flow, review templates, browser interactions, styling, resources, controller tests | To be linked after creation |
-| 04 · Tooling and quality | `feature/phase-04-tooling-quality` | Reproducible npm dependencies, standalone build, lint checks, metadata ZIP, GitHub Actions, PR template | To be linked after creation |
-| 05 · Documentation | `feature/phase-05-documentation` | Screenshot gallery, installation, merchant operation, architecture, complete code reference, testing, troubleshooting | To be linked after creation |
+| 01 · Foundation | `feature/phase-01-foundation` | Cartridge identity, metadata definitions, placeholder deployment config | [PR #1](https://github.com/Vedesh-reddy/sfcc-reviews-cartridge/pull/1) |
+| 02 · Review storage | `feature/phase-02-review-storage` | Canonical products, validation, keys, transactional persistence, approved aggregates, storage tests | [PR #2](https://github.com/Vedesh-reddy/sfcc-reviews-cartridge/pull/2) |
+| 03 · Storefront | `feature/phase-03-storefront` | HTTPS routes, login return flow, review templates, browser interactions, styling, resources, controller tests | [PR #3](https://github.com/Vedesh-reddy/sfcc-reviews-cartridge/pull/3) |
+| 04 · Tooling and quality | `feature/phase-04-tooling-quality` | Reproducible npm dependencies, standalone build, lint checks, metadata ZIP, GitHub Actions, PR template | [PR #4](https://github.com/Vedesh-reddy/sfcc-reviews-cartridge/pull/4) |
+| 05 · Documentation | `feature/phase-05-documentation` | Screenshot gallery, installation, merchant operation, architecture, complete code reference, testing, troubleshooting | [PR #5](https://github.com/Vedesh-reddy/sfcc-reviews-cartridge/pull/5) |
 
 ## Review order
 
