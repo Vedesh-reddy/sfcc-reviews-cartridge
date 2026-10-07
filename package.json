@@ -28,5 +28,9 @@
     "stylelint-config-standard-scss": "11.1.0",
     "postcss-scss": "4.0.9",
     "archiver": "7.0.1"
+  },
+  "scripts": {
+    "test": "mocha 'test/unit/plugin_productreviews/**/*.js'",
+    "test:reviews": "npm test"
   }
 }
